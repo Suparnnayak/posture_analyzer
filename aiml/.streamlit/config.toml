@@ -1,0 +1,19 @@
+# Streamlit configuration to prevent blocking issues
+
+[server]
+# Allow CORS from localhost
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+# Don't automatically open browser (prevents some blocking)
+gatherUsageStats = false
+
+[theme]
+# Custom theme
+primaryColor = "#FF4B4B"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#FAFAFA"
+font = "sans serif"
+
