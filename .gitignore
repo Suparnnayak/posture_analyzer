@@ -1,9 +1,7 @@
-# Byte-compiled / cached files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments
 venv/
 **/venv/
 .venv/
@@ -13,14 +11,12 @@ env/
 .env
 .env.*
 
-# Build / packaging artifacts
 build/
 dist/
 *.egg-info/
 *.egg
 pip-wheel-metadata/
 
-# Notebooks / checkpoints
 .ipynb_checkpoints/
 
 # IDE / tooling
@@ -36,11 +32,7 @@ Thumbs.db
 *.db
 *.log
 
-# Model artifacts (train locally before release)
+# Model artifacts
 aiml/models/*.pkl
-
-# Data dumps
-aiml/data/*.parquet
-aiml/data/*.pkl
 
 
